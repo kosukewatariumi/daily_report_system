@@ -52,6 +52,8 @@ public class Report {
     @Column(name = "title", length = 255, nullable = false)
     private String title;
 
+
+
     @Lob
     @Column(name = "content", nullable = false)
     private String content;
@@ -61,6 +63,10 @@ public class Report {
 
     @Column(name = "updated_at", nullable = false)
     private Timestamp updated_at;
+
+    @Column(name = "goodjob", nullable = false)
+    private Integer goodjob;
+
 
     public Integer getId() {
         return id;
@@ -117,4 +123,14 @@ public class Report {
     public void setUpdated_at(Timestamp updated_at) {
         this.updated_at = updated_at;
     }
+
+    public Integer getGoodjob() {
+        return goodjob;
+    }
+
+    public void setGoodjob(Integer goodjob) {
+        this.goodjob = goodjob;
+    }
+
+
 }
