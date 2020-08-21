@@ -13,7 +13,6 @@ import javax.servlet.http.HttpServletResponse;
 import models.Report;
 import utils.DBUtil;
 
-
 /**
  * Servlet implementation class ReportsGoodJobServlet
  */
