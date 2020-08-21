@@ -132,5 +132,4 @@ public class Report {
         this.goodjob = goodjob;
     }
 
-
 }
